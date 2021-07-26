@@ -1,0 +1,17 @@
+.intro__list {
+  max-width: 690px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Inter", "Arial", "Helvetica", sans-sefir;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}

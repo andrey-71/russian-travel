@@ -1,0 +1,18 @@
+.footer__copyright {
+  margin: 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-sefir;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}

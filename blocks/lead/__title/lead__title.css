@@ -1,0 +1,26 @@
+.lead__title {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  max-width: 720px;
+  width: 100%;
+  text-align: center;
+  font-family: "Inter", "Arial", "Helvetica", sans-sefir;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    padding: 0 16px 16px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

@@ -1,0 +1,14 @@
+.cover {
+  max-width: calc(1184px + 96px);
+  box-sizing: border-box;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
+}
