@@ -1,0 +1,10 @@
+.footer__links-item:not(:last-of-type) {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links-item:not(:last-of-type) {
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+}

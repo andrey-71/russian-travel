@@ -1,10 +1,19 @@
 .cover__background {
-  width: 100%;
-  height: 100%;
   background: url(../../../images/cover-trains.jpg) center center no-repeat;
   background-size: cover;
-  grid-column: 1;
-  grid-row: 1;
-  opacity: 0.8;
-  transition: opacity 0.5s;
+}
+
+.cover__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(42, 44, 47, .3);
+  transition: background .6s;
+}
+
+.cover__background:hover::before {
+  background: rgba(42, 44, 47, .8);
 }
