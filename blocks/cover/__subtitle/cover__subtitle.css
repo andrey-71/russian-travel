@@ -1,4 +1,5 @@
 .cover__subtitle {
+  position: relative;
   box-sizing: border-box;
   max-width: 360px;
   width: 100%;
