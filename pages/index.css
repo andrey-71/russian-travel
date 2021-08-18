@@ -18,6 +18,8 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__logo/header__logo.css);
 /*header mod*/
+@import url(../blocks/header/__logo/_lang/header__logo_lang_ru.css);
+@import url(../blocks/header/__logo/_lang/header__logo_lang_en.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /*content bl*/
